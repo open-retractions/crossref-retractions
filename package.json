@@ -11,6 +11,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "crossref-cli": "0.0.3"
+    "crossref-cli": "^0.0.4"
   }
 }

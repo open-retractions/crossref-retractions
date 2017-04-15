@@ -1,0 +1,16 @@
+{
+  "name": "crossref-retractions",
+  "version": "0.0.0",
+  "description": "",
+  "bin": "cli.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crossref-cli": "^0.0.2"
+  }
+}

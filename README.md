@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <a href="https://www.npmjs.com/package/crossref-retractions" alt="NPM package"><img src="https://img.shields.io/npm/v/crossref-cli.svg?style=flat-square" /></a>&nbsp;
+  <a href="https://www.npmjs.com/package/crossref-retractions" alt="NPM package"><img src="https://img.shields.io/npm/v/crossref-retractions.svg?style=flat-square" /></a>&nbsp;
   <a href="https://github.com/fathomlabs/crossref-cli/blob/master/LICENSE" alt="MIT license"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" /></a>&nbsp;
   <img src="https://img.shields.io/badge/made_with-❤️💙💚💛💜-e6e6e6.svg?style=flat-square" />
 </div>

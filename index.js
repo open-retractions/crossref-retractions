@@ -20,12 +20,11 @@ var types = [
 
 module.exports = function () {
   var args = {
-    filter: ['is-update:true']
+    filter: ['is-update:true'],
+    progress: true
   }
 
-  types.forEach(function (type) {
-    args.filter.push('update-type:' + type)
-  })
+  types.forEach(function (type) { args.filter.push('update-type:' + type) })
 
   return crossref(args)
 }

@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>crossref-retractions/h1>
+  <h1>crossref-retractions</h1>
   <h2>A very simple CLI and module for getting all CrossRef retractions (and other important article updates)</h2>
 </div>
 

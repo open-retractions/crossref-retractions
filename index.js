@@ -1,5 +1,5 @@
 var crossref = require('crossref-cli/query')
-var extend = require('xtend')
+var xtend = require('xtend')
 
 var types = [
   'corrected-article',
@@ -20,7 +20,7 @@ var types = [
 ]
 
 module.exports = function (query, opts) {
-  query = xtend(query || {}, { filter: ['is-update:true'] }
+  query = xtend(query || {}, { filter: ['is-update:true'] })
   opts = xtend(opts || {}, { progress: true })
 
   types.forEach(function (type) { query.filter.push('update-type:' + type) })

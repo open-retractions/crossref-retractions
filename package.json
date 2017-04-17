@@ -1,16 +1,17 @@
 {
   "name": "crossref-retractions",
   "version": "0.0.5",
-  "description": "",
+  "description": "stream retractions from the CrossRef API",
+  "repository": {
+    "git": "https://github.com/fathomlabs/crossref-retractions"
+  },
   "bin": "cli.js",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "crossref-cli": "^0.0.5"
+    "crossref-cli": "0.0.6",
+    "xtend": "^4.0.1"
   }
 }

@@ -2,6 +2,7 @@ var crossref = require('crossref-cli/query')
 var xtend = require('xtend')
 
 var types = [
+  'comment',
   'corrected-article',
   'correction',
   'Correction',
@@ -13,10 +14,13 @@ var types = [
   'Erratum',
   'expression_of_concern',
   'expression-of-concern',
-  'Removal',
+  'note-discuss',
+  'publisher-note',
+  'removal',
+  'retraction',
   'Retraction',
   'retration',
-  'Withdrawal'
+  'withdrawal'
 ]
 
 module.exports = function (query, opts) {

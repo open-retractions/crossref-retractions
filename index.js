@@ -23,11 +23,13 @@ var types = [
   'withdrawal'
 ]
 
-module.exports = function (query, opts) {
+module.exports = function (date, query, opts) {
+  date = date || '0000'
   query = xtend(query || {}, { filter: ['is-update:true'] })
   opts = xtend(opts || {}, { progress: true })
 
   types.forEach(function (type) { query.filter.push('update-type:' + type) })
+  query.filter.push('from-update-date:' + date)
 
   return crossref(query, opts)
 }

@@ -1,6 +1,6 @@
 {
   "name": "crossref-retractions",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "stream retractions from the CrossRef API",
   "repository": {
     "git": "https://github.com/fathomlabs/crossref-retractions"
